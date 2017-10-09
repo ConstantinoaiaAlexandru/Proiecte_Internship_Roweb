@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+            integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+            crossorigin="anonymous"></script>
+    <script src="myjquerry.js"></script>
+    <script src ="scrolling.js"></script>
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="navbarheader sticky-top">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded responsivenavbar ">
+        <button class="navbar-toggler navbar-toggler-right responsivetoggle " type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link coloringtext  " href="#"><span class="coloringtext">MOBILE APP TEMPLATE</span>
+                        <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section2text0"><span class="coloringtext">THE APP</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#prices"><span class="coloringtext">PRICES</span></a>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown ">
+                        <button class="btn btn-secondary dropdown-toggle up upperbutton" type="button" id="menu1"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            DEMOS
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="menu1">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown ">
+                        <button class="btn btn-secondary dropdown-toggle up upperbutton" type="button" id="menu1"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            BLOCKS
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="menu1">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<header>
+
+    <div class=".container-fluid ">
+        <div class="row firstrow">
+            <div class="col-1">
+            </div>
+            <div class="col-3">
+                <a id="headertext0">Mobile App Template</a>
+            </div>
+            <div class="col-7 col-lg-8 ">
+                <a href="#section2text0" id="headertext1">THE APP</a>
+                <a href="#prices" id="headertext2">PRICES</a>
+                <div class="dropdown ">
+                    <button class="btn btn-secondary dropdown-toggle up upperbutton" type="button" id="menu1"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        DEMOS
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="menu1">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+                <div class="dropdown ">
+                    <button class="btn btn-secondary dropdown-toggle up upperbutton" type="button" id="menu1"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        BLOCKS
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="menu1">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+                <a class="headertext"><img src="bootstrap/apple_logo.png" alt="applelogo!" class="headerimg"><span
+                        class="headerspan">GET ON APPSTORE</span></a>
+                <a class="headertext"><img src="bootstrap/android_logo.png" alt="androidlogo!" class="headerimg"><span
+                        class="headerspan">GET ON PLAYMARKET</span></a>
+            </div>
+            <div class="col-1  ">
+            </div>
+        </div>
+    </div>
+
+    <div class=".container-fluid problematic">
+        <div class="row">
+            <div class="col-md-1 col-lg-1 col-xl-1">
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 textcol6 ">
+                <h1 id="headertext5" class="">MOBILE APP SHOWCASE</h1>
+                <p id="headertext6">Fusce Interdum vulputate tortor, et ultricesc nunc gavida ac.
+                    Curabitur nec odio lacaus.</p>
+                <button type="button" class="btn twobuttons">IPHONE</button>
+                <button type="button" class="btn twobuttons topandroidbut">ANDROID</button>
+            </div>
+            <div class="col-12 col-md-5 col-lg-5 col-xl-5 iphone1">
+                <img src="bootstrap/iphone.png" alt="iphone" id="iphone">
+            </div>
+        </div>
+    </div>
+    <div class=".container-fluid">
+        <div class="row lowbut">
+            <div class="col-12">
+                <div class="dropdown bottom">
+                    <a class="btn btn-primary" href="#section2id">
+                        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class=".container-fluid">
+    <div class="row section2row1 section2">
+        <div class="col-12 section2title">
+            <p id="section2text0" class="fade-element">COOL APP OVERVIEW</p>
+            <p id="section2text1">This app is so cool and great and helps to solve so many problems.
+                Ut elementum hendrerit semper in consectetur mauris ut mi vulputate, eget finibus dui dapibus.
+                Donec portitor interdum gravida.Vestibulum sagittis, ex vitae solicitudin mattis, elit neque mattis
+                augue,
+                egt fringilla libero sem eget ante.Nulla non maximus quam.</p>
+        </div>
+    </div>
+</div>
+<div class=".container-fluid">
+    <div class="row section2" id="section2id">
+        <div class="col-12 col-sm-12 col-md-6 col-xl-3 fade-element">
+            <img src="bootstrap/blog1.jpg" alt="couple" id="imgsection3">
+            <div class="fade-element">
+                <p id="pseudoheadear">Cool notifications</p>
+                <p id="under">Bootstrap</p>
+                <p id="doubleunder">Bootstrap 4 has been noted as one of the most reliable and proven frameworks and
+                    Mobirise
+                    has been equipped to develop websites using this framework.</p>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-xl-3 fade-element">
+            <img src="bootstrap/blog2.jpg" alt="cat" id="imgsection3">
+            <div class="fade-element">
+                <p id="pseudoheadear">Responsive</p>
+                <p id="under">One of Bootstrap 4's big points</p>
+                <p id="doubleunder">One of Bootstrap 4's big points is responsiveness and Mobirise
+                    makes effective using <a href="https://startbootstrap.com/">free bootstrap templates</a> for you</p>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-xl-3 fade-element">
+            <img src="bootstrap/blog3.jpg" alt="blondewomanfacepalaming" id="imgsection3">
+            <div class="fade-element">
+                <p id="pseudoheadear">Web Fonts</p>
+                <p id="under">Google has a highly exhaustive list of fonts</p>
+                <p id="doubleunder">Google has a highly exhaustive list of fonts compiled into its web font platform and
+                    Mobrise makes
+                    it easy for you to use them on your website easily and freely.</p>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-xl-3 fade-element">
+            <img src="bootstrap/blog4.jpg" alt="waterfall" id="imgsection3">
+            <div class="fade-element">
+                <p id="pseudoheadear">Unlimited Sites</p>
+                <p id="under">Mobrise gives you the freedom to develop</p>
+                <p id="doubleunder">Mobrise gives you the freedom to develop as many websites as you like given the fact
+                    that it is a desktop app.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class=".container-fluid">
+    <div class="row section3 fade-element">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 section3col6 responsivealign">
+            <p id="videotutorial">A SHORT VIDEO TUTORIAL</p>
+            <p id="reasons">How and why you should try to use this great app.</p>
+            <button type="button" class="btn twobuttons somebutton">IPHONE</button>
+            <button type="button" class="btn twobuttons somebutton">ANDROID</button>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 section3onlyvideo ">
+            <iframe id="video" src="https://www.youtube.com/embed/6QvMcQ2Eejo">
+            </iframe>
+        </div>
+    </div>
+</div>
+<div class=".container-fluid">
+    <div class="row section4 fade-element">
+        <div class="col-12 col-md-12 col-sm-12 col-lg-4  ">
+            <div class="border">
+                <img src="bootstrap/pink_hearth.png" alt="pinkhearth" id="section4img">
+            </div>
+            <p id="pseudoheadear">Meet people evrywhere.</p>
+            <p id="under">One of Bootstrap 4's big points.</p>
+            <p id="doubleunder">One of Bootstrap 4's big points is responsivness and Mobirise makes effective use
+                of this by generating highly responsive websites for you. </p>
+        </div>
+        <div class="col-12 col-md-12 col-sm-12 col-lg-4 ">
+            <div class="border">
+                <img src="bootstrap/internet_globe.png" alt="internetglobes" id="section4img">
+            </div>
+            <p id="pseudoheadear">Web fonts.</p>
+            <p id="under">Google has a highly exhaustive list of fonts.</p>
+            <p id="doubleunder">Google has a highly exhaustive list of fonts compiled into its web font platform
+                and Mobirise makes it easy for you to use them on your websiteeasily and freely.</p>
+        </div>
+        <div class="col-12 col-md-12 col-sm-12 col-lg-4 ">
+            <div class="border">
+                <img src="bootstrap/smily_face.jpg" alt="smilyface" id="section4img">
+            </div>
+            <p id="pseudoheadear">Made with love</p>
+            <p id="under">Bootstrap 4 has been noted</p>
+            <p id="doubleunder">Bootstrap 4 has been noted as one of the most reliable and proven frameworks
+                and Mobirise has been equipped to develop websites using this framework.</p>
+        </div>
+    </div>
+</div>
+<div class=".container-fluid">
+    <div class="row section5">
+        <div class="section5transparent">
+
+        </div>
+        <div class="row section5title fade-element">
+            <div class="col-12 section4title">
+                <p id="section2text0">WHAT OUR FANTASTIC USERS SAY</p>
+                <p id="section4text1">Shape your future web project with sharp design and refine code functions. </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-2 fade-element">
+                <div class="users_responses">
+                    <p id="users_responses_text">"its really very amazing app that makes me finish html page in 3
+                        minutes
+                        (that's usually takes more than 1 hours at least from me if i did it from scratch).
+                        i hope to have very big library and plugins for this APP thanks again for your nice
+                        aplication"</p>
+                </div>
+                <div class="section5img fade-element">
+                    <img src="bootstrap/cat1.jpg" alt="cat" id="catimg">
+                </div>
+                <p id="section5users">Abanoub S.</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-2 fade-element">
+                <div class="users_responses">
+                    <p id="users_responses_text">"First of all hands off to you guys for your effort and nice , super
+                        tool.
+                        Good work mobirise team.We are expencting the new version soon with advance functionality with
+                        full bootstrap design. Great effort and super UI experience with easy drag and drop with no time
+                        design bootstrap
+                        builder in present web design world."</p>
+                </div>
+                <div class="section5img fade-element">
+                    <img src="bootstrap/cat2.jpg" alt="cat" id="catimg">
+                </div>
+                <p id="section5users">Suffian A.</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-2 fade-element">
+                <div class="users_responses">
+                    <p id="users_responses_text">"At first view, looks like a nice innovative tool, i like the great
+                        focus and time that was given to the responsive
+                        design , i also like the simple and clear drag and drop features.
+                        Give me more control over the object's propertis and ill be using this tool for more serious
+                        projects. Regards."</p>
+                </div>
+                <div class="section5img fade-element">
+                    <img src="bootstrap/cat3.jpg" alt="cat" id="catimg">
+                </div>
+                <p id="section5users">Jhollman C.</p>
+            </div>
+            <div class="col-2">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class=".container-fluid">
+    <div class="row section6 fade-element">
+        <div class="col-12">
+            <p id="section2text0">HOW MUCH DOES IT COST ?</p>
+            <p id="section6text">Pricing table with four columns and solid color background.</p>
+        </div>
+    </div>
+</div>
+<div class=".container-fluid">
+    <div class="row section7" id="prices">
+        <div class="col-1 ">
+        </div>
+        <div class="col-10">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 forbuyers">
+                    <div class="section7border">
+                        <div class="details">
+                            <div class="row">
+                                <div class="col-12 fade-element">
+                                    <p id="section7text0">MONTHLY PLAN</p>
+                                    <p id="section7description">Description</p>
+                                    <sup id="dollar">$</sup>
+                                    <span id="howmuch">1</span>
+                                    <span id="monthly">/mo.</span>
+                                    <p id="moredetails">More details</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="details2">
+                            <div class="row">
+                                <div class="col-12 fade-element">
+                                    <p id="section7details2text0">32 GB storage</p>
+                                    <hr>
+                                    <p id="section7details2text">Unlimited users</p>
+                                    <hr>
+                                    <p id="section7details2text">15 GB bandwidth</p>
+                                    <div class="section7onlybutton">
+                                        <button type="button" class="btn btn-secondary section7button"><p
+                                                id="buttontext">DEMO</p></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 forbuyers">
+                    <div class="section7border">
+                        <div class="details fade-element">
+                            <div class="hot">
+                                <span>HOT</span>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 fade-element">
+                                    <p id="section7text0">MONTHLY PLAN</p>
+                                    <p id="section7description">Description</p>
+                                    <sup id="dollar">$</sup>
+                                    <span id="howmuch">0.75</span>
+                                    <span id="monthly">/mo.</span>
+                                    <p id="moredetails">More details</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="details2">
+                            <div class="row">
+                                <div class="col-12 fade-element">
+                                    <p id="section7details2text0">32 GB storage</p>
+                                    <hr>
+                                    <p id="section7details2text">Unlimited users</p>
+                                    <hr>
+                                    <p id="section7details2text">15 GB bandwidth</p>
+                                    <div class="section7onlybutton">
+                                        <button type="button" class="btn btn-secondary section7button"><p
+                                                id="buttontext">DEMO</p></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 forbuyers">
+                    <div class="section7border">
+                        <div class="details">
+                            <div class="row">
+                                <div class="col-12 fade-element">
+                                    <p id="section7text0">MONTHLY PLAN</p>
+                                    <p id="section7description">Description</p>
+                                    <sup id="dollar">$</sup>
+                                    <span id="howmuch">0.5</span>
+                                    <span id="monthly">/mo.</span>
+                                    <p id="moredetails">More details</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="details2">
+                            <div class="row">
+                                <div class="col-12 fade-element">
+                                    <p id="section7details2text0">32 GB storage</p>
+                                    <hr>
+                                    <p id="section7details2text">Unlimited users</p>
+                                    <hr>
+                                    <p id="section7details2text">15 GB bandwidth</p>
+                                    <div class="section7onlybutton">
+                                        <button type="button" class="btn btn-secondary section7button"><p
+                                                id="buttontext">DEMO</p></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1 ">
+            </div>
+        </div>
+    </div>
+</div>
+<div class=".container-fluid">
+    <div class="row section8 fade-element">
+        <div class="col-12 section8col_12">
+            <h1 id="section8title">DOWNLOAD <br> NOW</h1>
+            <div class="section8onlybuttons">
+                <button type="button" class="btn section8twobuttons">IPHONE</button>
+                <button type="button" class="btn section8twobuttons">ANDROID</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+footer{
+  padding: 100px;
+      }
+#footertext1{
+  color: #2E6A75;
+  font-size: 50px;
+  text-align: center;
+  padding: 41px;
+  margin-top: -86px;
+}
+#footertext2{
+  color: #4F4A49;
+  float: left;
+  text-align: left;
+  margin-bottom: 26px;
+}
+#footertext3{
+  color: #4F4A49;
+  float: right;
+  text-align: right;
+}

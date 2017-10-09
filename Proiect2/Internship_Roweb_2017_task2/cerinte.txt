@@ -1,0 +1,20 @@
+1. Folosind in css "media query" creati o pagina responsiva:
+
+- Sa aveti css care sa afecteze ecrane mai mici de 576px
+- Sa aveti css care sa afecteze ecrane mai mari de 576px si mai mici de 768px
+- Sa aveti css care sa afecteze ecrane mai mari de 768px si mai mici de 992px 
+- Sa aveti css care sa afecteze ecrane mai mari de 992px si mai mici de 1200px
+- Sa aveti css care sa afecteze ecrane mai mari de 1200px
+
+2. Pagina trebuie sa contina:
+- header
+- content
+- footer
+
+3. CSS-ul trebuie sa contina:
+- efecte de hover diferite pentru toate cele sectiunile de "media query"
+- Optional: efecte de "Transitions" (https://www.w3schools.com/css/css3_transitions.asp)
+
+Spor!
+
+

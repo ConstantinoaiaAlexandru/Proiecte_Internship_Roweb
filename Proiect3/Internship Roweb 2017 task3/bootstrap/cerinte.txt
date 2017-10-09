@@ -1,0 +1,20 @@
+Folosind Boostrap realizati design-ul din "full_template.png". Design-ul trebuie sa fie responsiv.
+Cerinte:
+
+1. Meniu in header. Meniul sa contina elemente "drop-down".
+
+2. Sectiunea "A SHORT VIDEO TUTORIAL" trebuie sa contina un video ca sa porneasca la click.
+(Hint: Incercati cu <iframe> sau <video>)
+
+3. Toate butoanele vor avea efect de hover.
+
+Dupa ce design-ul a fost facut si verificat. Vom adauga elemente avansate:
+
+4. Sectiunea "MOBILE APP SHOWCASE" va fi un slider* de imagini.
+
+5. Adaugare de efecte javascript/jQuery**.
+
+* - vom alege impreuna ce slider vom folosi
+** -  vorbiti cu Adrian pentru mai multe detalii
+
+

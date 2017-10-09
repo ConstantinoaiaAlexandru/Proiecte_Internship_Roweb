@@ -1,0 +1,80 @@
+body{
+  font-family: 'Raleway', sans-serif;
+}
+    .content{
+      background-position: center;
+      background-image: url(images/sea_image.png);
+      background-repeat: no-repeat;
+      max-width: 100%;
+      padding: 60px;
+      background-size: cover
+    }
+    .col-1{
+      background-color: white;
+      margin-left: 342px;
+      padding: -10px;
+      width: 41%;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+    .before{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+    .col-2{
+      background-color: rgba(42,73,62,.5);
+      width: 29%;
+      text-align: center;
+      margin-bottom: 60px;
+      transition: width 2s, height 2s;
+    }
+    .col-2:hover {
+      background-color: rgba(42,73,62,1);
+      width:100%;
+  }
+    .col-3{
+      background-color: white;
+      width: 20%;
+      margin-left: 473px;
+      text-align: center;
+      margin-top: 40px;
+    }
+    .col-4{
+      background-color: #2E6A75;
+      width: 27%;
+      margin-left: 402px;
+      text-align: center;
+      margin-top: 33px;
+    }
+    .col-5{
+      background-color: #2D7E74;
+      width: 15%;
+      margin-left: 518px;
+      text-align: center;
+      margin-top: 33px;
+    }
+    .box{
+     padding: 5px;
+     margin-top: 0;
+     margin-right: auto;
+     margin-left: auto;
+    }
+    #text1{
+      padding: 4px;
+      color: #7A9BAF;
+      font-weight: bold;
+    }
+    #text2{
+      border: 3px solid white;
+      padding: 26px;
+      color: #FFFFFF;
+      font-size: 46px;
+
+    }
+    #text3{
+      padding: 1px;
+      color: #7A9BAF;
+      font-weight: bold;
+    }

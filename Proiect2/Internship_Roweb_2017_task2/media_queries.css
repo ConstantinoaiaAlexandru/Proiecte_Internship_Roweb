@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+    @media screen and (max-width: 576px) {
+      /* For devices smaller than 576px*/
+    .box{width: 100%;}
+}
+    @media screen and (min-width: 576px) and (max-width:768px)  {
+      /* For for devices betwenn 576px and 768px*/
+      .col-1 { width: 80%;}
+      .col-2 {width: 65%; }
+      .col-2:hover {
+        background-color: #ABEBC6;
+    }
+      .col-3 {width: 40%;}
+      .col-4 {width: 55%;}
+      .col-5 {width: 20%;}
+}
+    @media screen and (min-width: 768px) and (max-width:992px)  {
+          /* For for devices betwenn 768px and 992px*/
+        .col-1 { width: 73%;}
+        .col-2 {width: 60%; }
+        .col-2:hover {
+          background-color: #AED6F1;
+      }
+        .col-3 {width: 40%;}
+        .col-4 {width: 48%;}
+        .col-5 {width: 20%;}
+      }
+      @media screen and (min-width: 992px) and (max-width:1200px)  {
+            /* For for devices betwenn 992px and 1200px*/
+          .col-1 { width: 60%; }
+          .col-2 {width: 45%; }
+          .col-2:hover {
+            background-color: #D2B4DE;
+        }
+          .col-3 {width: 27%;}
+          .col-4 {width: 35%;}
+          .col-5 {width: 17%;}
+        }
+        @media screen and (min-width: 1200px) {
+              /* For for devices larger than 1200px*/
+            .col-1 {width: 52%;}
+            .col-2 {width: 42%; }
+            .col-2:hover {
+              background-color:#F5B7B1 ;
+          }
+            .col-3 {width: 21%;}
+            .col-4 {width: 27%;}
+            .col-5 {width: 10%;}
+          }
